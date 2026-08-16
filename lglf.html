@@ -1,0 +1,382 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L&amp;L Beauty Studio — Manicure &amp; Nail Art</title>
+    <meta name="description" content="L&L Beauty Studio: uñas acrílicas, nail art y diseños de temporada. Escríbenos por WhatsApp.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+    <div class="grain"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+
+    <!-- LOADER --> 
+    <div class="loader" id="loader">
+    <div class="loader-mark">L&amp;L</div>
+    <div class="loader-bar"><span></span></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header" id="siteHeader">
+    <div class="nav-wrap">
+        <a href="#inicio" class="brand">
+        <img src="./img/LOGO.png" alt="L&L Beauty Studio" class="brand-logo">
+        </a>
+
+        <nav class="nav-pill" id="navPill">
+        <a href="#inicio" class="nav-link active" data-link>Inicio</a>
+        <a href="#informacion" class="nav-link" data-link>Información</a>
+        <a href="#servicios" class="nav-link" data-link>Servicios</a>
+        <a href="#galeria" class="nav-link" data-link>Galería</a>
+        <a href="#tematicas" class="nav-link" data-link>Temáticas</a>
+        <a href="#contacto" class="nav-link nav-cta" data-link>Contáctanos</a>
+        </nav>
+
+        <button class="burger" id="burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+        </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#inicio" data-link>Inicio</a>
+        <a href="#informacion" data-link>Información</a>
+        <a href="#servicios" data-link>Servicios</a>
+        <a href="#galeria" data-link>Galería</a>
+        <a href="#tematicas" data-link>Temáticas</a>
+        <a href="#contacto" class="mm-cta" data-link>Contáctanos</a>
+    </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+    <div class="hero-blobs" aria-hidden="true">
+        <span class="blob blob-a"></span>
+        <span class="blob blob-b"></span>
+    </div>
+    <div class="sparkles" id="sparkles"></div>
+
+    <div class="hero-inner">
+        <div class="hero-content">
+        <p class="eyebrow reveal-up">Estudio de belleza · manos &amp; uñas</p>
+        <h1 class="hero-title">
+            <span class="reveal-up" style="--d:0.05s">El arte</span>
+            <span class="reveal-up" style="--d:0.15s">empieza</span>
+            <span class="reveal-up italic" style="--d:0.25s">en tus manos</span>
+        </h1>
+        <p class="hero-sub reveal-up" style="--d:0.35s">Uñas acrílicas, nail art de autor y diseños de temporada en un espacio pensado para que te consientas.</p>
+        <div class="hero-actions reveal-up" style="--d:0.45s">
+            <a href="#contacto" class="btn btn-primary">Reservar cita</a>
+            <a href="#galeria" class="btn btn-outline">Ver galería</a>
+        </div>
+        </div>
+
+        <div class="hero-visual reveal-left">
+        <span class="hero-visual-ring"></span>
+        <img src="./img/FONDO.png" alt="Diseño de uñas L&L Beauty Studio" class="hero-photo">
+        <div class="hero-badge">
+            <strong>+5</strong>
+            <span>años de<br>experiencia</span>
+        </div>
+        </div>
+    </div>
+
+    <a href="#informacion" class="scroll-cue" aria-label="Bajar">
+        <span></span>
+        <small>desliza</small>
+    </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+    <div class="marquee-track">
+        <span>Uñas Acrílicas</span><span>•</span><span>Nail Art</span><span>•</span>
+        <span>Diseños de Temporada</span><span>•</span><span>Pedrería</span><span>•</span>
+        <span>Semipermanente</span><span>•</span><span>Encapsulados</span><span>•</span>
+        <span>Uñas Acrílicas</span><span>•</span><span>Nail Art</span><span>•</span>
+        <span>Diseños de Temporada</span><span>•</span><span>Pedrería</span><span>•</span>
+        <span>Semipermanente</span><span>•</span><span>Encapsulados</span><span>•</span>
+    </div>
+    </div>
+
+    <!-- INFORMACION -->
+    <section class="info" id="informacion">
+    <div class="info-grid">
+        <div class="info-media reveal-left">
+        <img src="./img/foto 2 prsentacion.png" alt="Detalle de manicure L&L Beauty Studio">
+        <div class="info-badge">
+        </div>
+        </div>
+
+        <div class="info-copy">
+        <p class="eyebrow reveal-up">Información</p>
+        <h2 class="reveal-up">Un estudio pensado para cuidar cada detalle</h2>
+        <p class="reveal-up">En L&amp;L Beauty Studio combinamos técnica, higiene y diseño para que cada visita se sienta como un pequeño ritual. Trabajamos con productos de alta calidad y una aguja fina para el detalle: piedras, encapsulados y trazos hechos a mano.</p>
+
+        <div class="stats reveal-up">
+            <div class="stat">
+            <span class="stat-num" data-count="1200">0</span>
+            <span class="stat-label">clientas felices</span>
+            </div>
+            <div class="stat">
+            <span class="stat-num" data-count="35">0</span>
+            <span class="stat-label">diseños de temporada</span>
+            </div>
+            <div class="stat">
+            <span class="stat-num" data-count="98">0</span>
+            <span class="stat-label">% de clientas que vuelven</span>
+            </div>
+        </div>
+
+        <ul class="check-list reveal-up">
+            <li>Esterilización de herramientas en cada cita</li>
+            <li>Diseños personalizados según tu estilo</li>
+            <li>Ambiente cálido y tranquilo</li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+        <!-- SERVICIOS -->
+    <section class="services" id="servicios">
+    <p class="eyebrow center reveal-up">Servicios</p>
+    <h2 class="center reveal-up">Lo que hacemos por tus manos</h2>
+    
+    <div class="services-grid">
+        <article class="service-card reveal-up" style="--d:0.05s">
+        <div class="service-media">
+            <div class="service-carousel">
+            <img src="./img/ua1.jpg" alt="Uñas Acrílicas 1" class="active">
+            <img src="./img/ua2.webp" alt="Uñas Acrílicas 2">
+            <img src="./img/ua3.jpg" alt="Uñas Acrílicas 3">
+            </div>
+            <span class="service-dots"></span>
+            <span class="service-badge">💅</span>
+        </div>
+        <h3>Uñas Acrílicas</h3>
+        <p>Estructura resistente y duradera, en el largo y forma que prefieras.</p>
+        </article>
+    
+        <article class="service-card reveal-up" style="--d:0.12s">
+        <div class="service-media">
+            <div class="service-carousel">
+            <img src="./img/na1.webp" alt="Nail Art 1" class="active">
+            <img src="./img/na2.webp" alt="Nail Art 2">
+            <img src="./img/na3.avif" alt="Nail Art 3">
+            </div>
+            <span class="service-dots"></span>
+            <span class="service-badge">✨</span>
+        </div>
+        <h3>Nail Art</h3>
+        <p>Trazos finos, encapsulados y detalles hechos a pincel.</p>
+        </article>
+
+        <article class="service-card reveal-up" style="--d:0.26s">
+        <div class="service-media">
+            <div class="service-carousel">
+            <img src="./img/p1.jpg" alt="Pedrería y Perlas 1" class="active">
+            <img src="./img/p2.jpg" alt="Pedrería y Perlas 2">
+            <img src="./img/p3.webp" alt="Pedrería y Perlas 3">
+            </div>
+            <span class="service-dots"></span>
+            <span class="service-badge">💎</span>
+        </div>
+        <h3>Pedrería &amp; Perlas</h3>
+        <p>Aplicaciones de cristales y perlas para looks de ocasión especial.</p>
+        </article>
+    
+        <article class="service-card reveal-up" style="--d:0.33s">
+        <div class="service-media">
+            <div class="service-carousel">
+            <img src="./img/s1.jpg" alt="Semipermanente 1" class="active">
+            <img src="./img/s2.webp" alt="Semipermanente 2">
+            <img src="./img/s3.jpg" alt="Semipermanente 3">
+            </div>
+            <span class="service-dots"></span>
+            <span class="service-badge">🎨</span>
+        </div>
+        <h3>Semipermanente</h3>
+        <p>Color de alta duración con acabado brillante hasta por 3 semanas.</p>
+        </article>
+    
+    </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="gallery" id="galeria">
+    <p class="eyebrow center reveal-up">Galería</p>
+    <h2 class="center reveal-up">Detalles que hablan por sí solos</h2>
+
+    <div class="carousel" id="carousel">
+        <button class="car-arrow car-prev" id="carPrev" aria-label="Anterior">&#10094;</button>
+
+        <div class="car-track-wrap">
+        <ul class="car-track" id="carTrack">
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.10.57 (2).jpeg" alt="Nail art detalle 1"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.10.57.jpeg" alt="Nail art detalle 2"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.03.jpeg" alt="Nail art detalle 3"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.09.jpeg" alt="Nail art detalle 4"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.11 (1).jpeg" alt="Nail art detalle 5"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.35 (2).jpeg" alt="Nail art detalle 5"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.15.jpeg" alt="Nail art detalle 5"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.15 (1).jpeg" alt="Nail art detalle 5"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.35 (1).jpeg" alt="Nail art detalle 5"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.36 (2).jpeg" alt="Nail art detalle 5"></li>
+            <li class="car-slide"><img src="./img/WhatsApp Image 2026-08-13 at 16.11.36 (1).jpeg" alt="Nail art detalle 5"></li>
+        </ul>
+        </div>
+
+        <button class="car-arrow car-next" id="carNext" aria-label="Siguiente">&#10095;</button>
+    </div>
+
+    <div class="car-dots" id="carDots"></div>
+    </section>
+
+        <!-- TEMATICAS -->
+    <section class="themes" id="tematicas">
+    <p class="eyebrow center reveal-up">Trabajos por temática</p>
+    <h2 class="center reveal-up">Uñas para cada ocasión del año</h2>
+    <p class="center theme-lead reveal-up">Colecciones especiales que renovamos por temporada. Escríbenos la fecha de tu evento y diseñamos algo único.</p>
+    
+    <div class="themes-grid">
+    
+        <article class="theme-card theme-christmas reveal-up" style="--d:0.05s" data-particle="❄" data-count="14">
+        <div class="theme-media mini-carousel">
+            <div class="carousel-imgs">
+            <img src="./img/n1.webp" alt="Diseño Navidad 1" class="active">
+            <img src="./img/n2.jpg" alt="Diseño Navidad 2">
+            <img src="./img/n3.png" alt="Diseño Navidad 3">
+            </div>
+            <span class="carousel-dots"></span>
+        </div>
+        <div class="theme-particles"></div>
+        <div class="theme-icon">🎄</div>
+        <h3>Navidad</h3>
+        <p>Rojos profundos, glitter y detalles dorados para cerrar el año brillando.</p>
+        <a href="#" class="theme-link" data-theme="Navidad 🎄">Consultar diseño <span>→</span></a>
+        </article>
+    
+        <article class="theme-card theme-halloween reveal-up" style="--d:0.12s" data-particle="🦇" data-count="10">
+        <div class="theme-media mini-carousel">
+            <div class="carousel-imgs">
+            <img src="./img/h1.webp" alt="Diseño Halloween 1" class="active">
+            <img src="./img/h2.jpg" alt="Diseño Halloween 2">
+            <img src="./img/h3.jpeg" alt="Diseño Halloween 3">
+            </div>
+            <span class="carousel-dots"></span>
+        </div>
+        <div class="theme-particles"></div>
+        <div class="theme-icon">🕸️</div>
+        <h3>Halloween</h3>
+        <p>Negro, telarañas y toques metálicos para un look glam con actitud.</p>
+        <a href="#" class="theme-link" data-theme="Halloween 🕸️">Consultar diseño <span>→</span></a>
+        </article>
+    
+        <article class="theme-card theme-party reveal-up" style="--d:0.19s" data-particle="✦" data-count="14">
+        <div class="theme-media mini-carousel">
+            <div class="carousel-imgs">
+            <img src="./img/año1.avif" alt="Diseño Fiestas 1" class="active">
+            <img src="./img/año2.webp" alt="Diseño Fiestas 2">
+            <img src="./img/año3.webp" alt="Diseño Fiestas 3">
+            </div>
+            <span class="carousel-dots"></span>
+        </div>
+        <div class="theme-particles"></div>
+        <div class="theme-icon">🎉</div>
+        <h3>Fiestas &amp; Año Nuevo</h3>
+        <p>Brillos, cromados y dorado intenso para celebrar por todo lo alto.</p>
+        <a href="#" class="theme-link" data-theme="Fiestas y Año Nuevo 🎉">Consultar diseño <span>→</span></a>
+        </article>
+    
+        <article class="theme-card theme-love reveal-up" style="--d:0.26s" data-particle="♥" data-count="12">
+        <div class="theme-media mini-carousel">
+            <div class="carousel-imgs">
+            <img src="./img/v1.jpg" alt="Diseño San Valentín 1" class="active">
+            <img src="./img/v2.jpg" alt="Diseño San Valentín 2">
+            <img src="./img/v3.jpg" alt="Diseño San Valentín 3">
+            </div>
+            <span class="carousel-dots"></span>
+        </div>
+        <div class="theme-particles"></div>
+        <div class="theme-icon">💗</div>
+        <h3>San Valentín</h3>
+        <p>Fucsias, corazones finos y acabados perlados para el mes del amor.</p>
+        <a href="#" class="theme-link" data-theme="San Valentín 💗">Consultar diseño <span>→</span></a>
+        </article>
+    
+    </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto">
+    <div class="contact-grid">
+        <div class="contact-copy">
+        <p class="eyebrow reveal-up">Contáctanos</p>
+        <h2 class="reveal-up">Agenda tu próxima cita</h2>
+        <p class="reveal-up">Completa el formulario y ábrelo directo en WhatsApp: te confirmamos disponibilidad el mismo día.</p>
+
+        <ul class="contact-info reveal-up">
+            <li><span>📍</span> Cra. 65 #75 – 12, Bogotá</li>
+            <li><span>📞</span> +57 324 380 7506</li>
+            <li><span>🕐</span> Lun – Sáb · 9:00am – 6:00pm</li>
+        </ul>
+
+        <a href="https://wa.me/573243807506?text=Hola%20L%26L%20Beauty%20Studio%2C%20quiero%20agendar%20una%20cita" target="_blank" rel="noopener" class="whatsapp-inline">
+            <span class="wa-dot"></span> Escribe al WhatsApp para mas informacion y atencion personalizada
+        </a>
+
+        <div class="socials reveal-up">
+            <a href="https://www.instagram.com/llbe.autystudio?utm_source=qr&igsh=MTQ5MDQ3cTZreXFiNQ==" aria-label="Instagram">IG</a>
+            <a href="https://www.tiktok.com/@llbeautystudio8?_r=1&_t=ZS-98rWKwlgoj6" aria-label="TikTok">TT</a>
+        </div>
+        </div>
+
+        <form class="contact-form reveal-up" id="contactForm">
+        <div class="field">
+            <input type="text" id="name" required placeholder=" ">
+            <label for="name">Nombre</label>
+        </div>
+        <div class="field">
+            <input type="tel" id="phone" required placeholder=" ">
+            <label for="phone">Teléfono / WhatsApp</label>
+        </div>
+        <div class="field">
+            <select id="service" required>
+            <option value="" disabled selected hidden></option>
+            <option>Uñas Acrílicas</option>
+            <option>Nail Art</option>
+            <option>Diseño de Temporada</option>
+            <option>Semipermanente</option>
+            <option>Otro</option>
+            </select>
+            <label for="service" class="select-label">Servicio de interés</label>
+        </div>
+        <div class="field">
+            <textarea id="message" rows="3" placeholder=" "></textarea>
+            <label for="message">Cuéntanos qué diseño imaginas</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+            <span class="btn-text">Enviar por WhatsApp</span>
+            <span class="btn-check">✓ ¡Abriendo WhatsApp!</span>
+        </button>
+        </form>
+    </div>
+    </section>
+
+    <footer class="site-footer">
+    <img src="./img/LOGO.png" alt="L&L Beauty Studio" class="footer-logo">
+    <p>&copy; <span id="year"></span> L&amp;L Beauty Studio. Todos los derechos reservados.</p>
+    <a href="#inicio" class="to-top" id="toTop" aria-label="Volver arriba">↑</a>
+    </footer>
+
+    <a href="https://wa.me/573243807506?text=Hola%20L%26L%20Beauty%20Studio%2C%20quiero%20mas%20informacion" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Escribir por WhatsApp">
+    <span>WA</span>
+    </a>
+
+    <script src="./lglf.js"></script>
+    </body>
+    </html>
